@@ -1,0 +1,37 @@
+
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+ }
+/*main nav bar */
+.top-nav-collapse {
+  background-color: #2b2b2c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: #2b2b2c !important;
+}
+
+
+@media (max-width: 991px) {
+ .navbar:not(.top-nav-collapse) {
+  background: #2b2b2c !important;
+ }
+}
+
+
+h5 {
+  letter-spacing: 3px;
+}
